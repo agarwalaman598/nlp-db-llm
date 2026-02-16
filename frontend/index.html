@@ -1,34 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Natural Language Database</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Natural Language Database Interface</title>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+<div class="noise"></div>
+
 <div class="container">
 
-    <header>
-        <h1>Natural Language</h1>
-        <h2>Database Interface</h2>
-        <p>Ask questions in plain English and get SQL results instantly</p>
+    <header class="header">
+        <div class="title">
+            <span class="tag">v1.0</span>
+            <h1>
+                Natural Language<br>
+                <span>Database Interface</span>
+            </h1>
+        </div>
+
+        <div class="description">
+            Transform natural language into SQL queries.
+            Ask in English and get instant database results.
+        </div>
     </header>
 
     <section class="query-box">
-        <input id="q" placeholder="show CSE students with CGPA above 8">
-        <button onclick="ask()">Run Query</button>
+        <input id="q" placeholder="students with cgpa above 8 in cse">
+        <button onclick="ask()">RUN</button>
     </section>
 
-    <section class="output">
+    <section class="cards">
 
         <div class="card">
-            <h3>Generated SQL</h3>
-            <pre id="sql">Awaiting input...</pre>
+            <div class="card-title">GENERATED SQL</div>
+            <pre id="sql">Awaiting query...</pre>
         </div>
 
         <div class="card">
-            <h3>Query Results</h3>
+            <div class="card-title">RESULTS</div>
             <div class="table-wrap">
                 <table id="table"></table>
             </div>
