@@ -8,6 +8,25 @@
 
 *{box-sizing:border-box;}
 
+.app-footer {
+  position: fixed;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  color: #7a7a7a;
+  letter-spacing: 0.5px;
+  pointer-events: none; /* prevents blocking UI clicks */
+}
+
+.app-footer span {
+  background: rgba(255,255,255,0.03);
+  padding: 6px 12px;
+  border-radius: 999px;
+  backdrop-filter: blur(6px);
+}
+
 body{
     margin:0;
     background:var(--bg);
