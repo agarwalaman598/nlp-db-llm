@@ -221,7 +221,8 @@ Educational / demonstration use.
 ---
 
 ## Author
-Aman
+
+**Aman Agarwal**  
 B.Tech Computer Science Engineering
 
 ---
