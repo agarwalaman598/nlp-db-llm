@@ -1,4 +1,4 @@
-# NL-DB-LLM
+# NLP-DB-LLM
 
 **Natural Language → SQL → Database Results**
 
