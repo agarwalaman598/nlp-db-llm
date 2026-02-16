@@ -1,0 +1,48 @@
+# Python cache (all levels)
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# backend specifically
+backend/__pycache__/
+backend/**/*.pyc
+
+# Virtual environment
+venv/
+.env/
+.env
+.env.*
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# MySQL dumps
+*.sql.gz
+*.dump
+
+# Secrets / keys
+backend/config.py
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+# Cache
+.cache/
+.pytest_cache/
+
+# Node (if later added)
+node_modules/
+
+# Screenshots temp files
+docs/screenshots/*.tmp

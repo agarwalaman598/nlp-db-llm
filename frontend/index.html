@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Natural Language Database</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>Natural Language</h1>
+        <h2>Database Interface</h2>
+        <p>Ask questions in plain English and get SQL results instantly</p>
+    </header>
+
+    <section class="query-box">
+        <input id="q" placeholder="show CSE students with CGPA above 8">
+        <button onclick="ask()">Run Query</button>
+    </section>
+
+    <section class="output">
+
+        <div class="card">
+            <h3>Generated SQL</h3>
+            <pre id="sql">Awaiting input...</pre>
+        </div>
+
+        <div class="card">
+            <h3>Query Results</h3>
+            <div class="table-wrap">
+                <table id="table"></table>
+            </div>
+        </div>
+
+    </section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
